@@ -1,0 +1,70 @@
+{
+	"subscribe": "Faça Parte",
+	"header": {
+		"menu": "Menu",
+		"about": null,
+		"title": "Seja Modelo da Maior Agência de Diversidade do Brasil",
+		"subtitle": null
+	},
+	"menu": {
+		"menu": "Menu",
+		"home": "Home",
+		"about": "Sobre",
+		"plans": "Planos",
+		"join": "Faça Parte"
+	},
+	"locales": {
+		"locales": "Idiomas",
+		"en": "Inglês",
+		"ptBr": "Português do Brasil"
+	},
+	"privacy-policy": "Política de Privacidade",
+	"therms-of-use": "Termos de Uso",
+	"all-rights-reserved": "Todos os direitos reservados",
+	"form": {
+		"title": "Faça Parte",
+		"description": "Se você tem o sonho de se tornar um modelo, estamos aqui para ajudar a transformar esse sonho em realidade.",
+		"gender": "Gênero",
+		"name": "Nome",
+		"phone": "Telefone",
+		"phone_helper": "Use o seu WhatsApp para podermos entrar em contato com você mais rápidamente.",
+		"email": "E-mail",
+		"email_helper": "Não se preocupe! Não enviaremos spam.",
+		"state": "Estado",
+		"city": "Cidade",
+		"choose_state_before": "Escolha o Estado antes",
+		"select_an_option": "Selecione uma opção",
+		"birthdate": "Data de Nascimento",
+		"responsible_name": "Nome do Responsável",
+		"responsible_name_helper": "Menores de idade precisam do nome do responsável preenchido. Por favor, informe o nome do responsável.",
+		"submit": "Enviar",
+		"success": "Obrigado!",
+		"success_description": "Seu cadastro foi realizado com sucesso! Entraremos em contato com você em breve.",
+		"error": "Oops!",
+		"error_description": "Ocorreu um erro ao enviar o formulário. Por favor, tente novamente mais tarde ou clique no botão do WhatsApp para falar com nossa equipe agora mesmo!",
+		"is_submiting": "Enviando...",
+		"is_submiting_description": "Por favor, aguarde enquanto enviamos o formulário. Dependendo da sua conexão, pode levar alguns segundos.",
+		"same_mail_and_name": "Duplicado!",
+		"same_mail_and_name_description": "Já temos um cadastro com o mesmo nome e e-mail feito recentemente. Por favor, se você quer faer um novo cadastro aguarde duas horas e tente novamente."
+	},
+	"genders" : {
+		"female": "Feminino",
+		"male": "Masculino",
+		"others": "Outros"
+	},
+	"validation": {
+		"name_required": "O nome é obrigatório.",
+		"name_minlength": "O nome precisa de pelo menos seis caracteres.",
+		"phone_required": "O telefone é obrigatório.",
+		"phone_invalid": "O telefone é inválido.",
+		"email_required": "O e-mail é obrigatório.",
+		"email_invalid": "O e-mail é inválido.",
+		"city_required": "A Cidade é obrigatória.",
+		"state_required": "O Estado é obrigatório.",
+		"gender_required": "O Gênero é obrigatório.",
+		"birthdate_required": "A Data de Nascimento é obrigatória."
+	},
+	"modal": {
+		"close": "Fechar"
+	}
+}

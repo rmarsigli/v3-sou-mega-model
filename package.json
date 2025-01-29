@@ -1,8 +1,9 @@
 {
-  "name": "studio-mega-pro",
-  "version": "0.1.0",
+  "name": "lp-mega-model",
+  "version": "1.0",
   "private": true,
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,17 +11,38 @@
     "@types/node": "^16.18.36",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "detect-browser": "^5.3.0",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.4.2",
+    "i18next": "^23.2.3",
+    "i18next-browser-languagedetector": "^7.0.2",
     "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
+    "react-env": "0.0.0",
+    "react-i18next": "^13.0.1",
+    "react-input-mask": "^2.0.4",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
+    "swiper": "^10.1.0",
+    "tailwindcss": "^3.3.2",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev.mega": "env-cmd --verbose -f .env.sites.mega react-scripts start",
+    "dev.diversity": "env-cmd --verbose -f .env.sites.diversity react-scripts start",
+    "dev.kids": "env-cmd --verbose -f .env.sites.kids react-scripts start",
+    "build.mega": "env-cmd --verbose -f .env.sites.mega react-scripts build",
+    "build.diversity": "env-cmd --verbose -f .env.sites.diversity react-scripts build",
+    "build.kids": "env-cmd --verbose -f .env.sites.kids react-scripts build",
+    "changelog": "auto-changelog --template keepachangelog --output CHANGELOG.md"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +61,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/react-input-mask": "^3.0.2",
+    "auto-changelog": "^2.5.0",
+    "dotenv": "^16.4.5",
+    "react-select": "^5.8.0",
+    "zustand": "^4.5.4"
   }
 }
