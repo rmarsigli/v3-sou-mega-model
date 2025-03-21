@@ -11,6 +11,7 @@ const Jobs = () => {
     const jobs: Record<string, [...string[]]> = {
         'diversity': [Job1, Job2, Job3],
         'mega': [Job1, Job2, Job3],
+	    'seletiva': [Job1, Job2, Job3],
     }
 
     const features: string[] = [

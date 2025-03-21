@@ -22,7 +22,6 @@
 		<meta name="twitter:title" content="%REACT_APP_SLOGAN% - %REACT_APP_NAME%" />
 		<meta name="twitter:description" content="%REACT_APP_DESCRIPTION%" />
 		<meta name="twitter:image" content="%PUBLIC_URL%logo-512.png" />
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=%REACT_APP_ADSENSE_CLIENT%&display=crawler" crossorigin="anonymous"></script>
 		<script>
 			!function(f,b,e,v,n,t,s)
 			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -35,8 +34,9 @@
 			fbq('init', '%REACT_APP_FACEBOOK_META_CODE%');
 			fbq('track', 'PageView');
 		</script>
-		<noscript><img height="1" width="1" style="display:none"
-					   src="https://www.facebook.com/tr?id=%REACT_APP_FACEBOOK_META_CODE%&ev=PageView&noscript=1"
+		<noscript>
+			<img height="1" width="1" style="display:none"
+					   src="https://www.facebook.com/tr?id=%REACT_APP_FACEBOOK_META_CODE%&ev=PageView"
 		/></noscript>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=%REACT_APP_GOOGLE_TAGMANAGER_CODE%"></script>
 		<script>

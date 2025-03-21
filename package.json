@@ -37,11 +37,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "dev.mega": "env-cmd --verbose -f .env.sites.mega react-scripts start",
-    "dev.diversity": "env-cmd --verbose -f .env.sites.diversity react-scripts start",
+	"dev.diversity": "env-cmd --verbose -f .env.sites.diversity react-scripts start",
+	"dev.seletiva": "env-cmd --verbose -f .env.sites.seletiva react-scripts start",
     "dev.kids": "env-cmd --verbose -f .env.sites.kids react-scripts start",
     "build.mega": "env-cmd --verbose -f .env.sites.mega react-scripts build",
     "build.diversity": "env-cmd --verbose -f .env.sites.diversity react-scripts build",
     "build.kids": "env-cmd --verbose -f .env.sites.kids react-scripts build",
+	"build.seletiva": "env-cmd --verbose -f .env.sites.seletiva react-scripts build",
     "changelog": "auto-changelog --template keepachangelog --output CHANGELOG.md"
   },
   "eslintConfig": {

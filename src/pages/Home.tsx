@@ -1,14 +1,19 @@
 import HomeMega from '../partials/HomeMega';
 import HomeKids from '../partials/HomeKids';
+import HomeSeletiva from '../partials/HomeSeletiva';
 import Testimonials from '../components/Testimonials';
 import Jobs from '../components/Jobs';
 
 export default function Home () {
+	const pageType = process.env.REACT_APP_PAGE_TYPE;
+	
 	return (
 		<main id="main">
-			{process.env.REACT_APP_PAGE_TYPE === 'kids' ? <HomeKids /> : <HomeMega />}
+			{pageType === 'kids' ? <HomeKids /> : 
+				pageType === 'seletiva' ? <HomeSeletiva /> : 
+					<HomeMega />}
 
-			{process.env.REACT_APP_PAGE_TYPE !== 'kids' && (
+			{pageType !== 'kids' && (
 				<>
 					<Jobs />
 					<Testimonials />
